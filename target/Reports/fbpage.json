@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-29T06:37:17.859Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3133808600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1288355100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeCh()"
+            }
+          },
+          {
+            "result": {
+              "duration": 164689500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeCheck()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate the forgotten with invalid mobile number",
+        "description": "",
+        "id": "validate-the-forgotten-password-functionality;validate-the-forgotten-with-invalid-mobile-number",
+        "after": [
+          {
+            "result": {
+              "duration": 182100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterCh(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 70800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterCheck()"
+            }
+          },
+          {
+            "result": {
+              "duration": 281711300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8405100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch chrome and load the url",
+            "match": {
+              "location": "LoginStepDefinition.user_should_launch_chrome_and_load_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3463835000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click the forgotten password link",
+            "match": {
+              "location": "ForgottenStepDefinition.user_should_click_the_forgotten_password_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102421800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should input invalid mobile number in the text box",
+            "match": {
+              "location": "ForgottenStepDefinition.user_should_input_invalid_mobile_number_in_the_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19183800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should print the title of my password reset page",
+            "match": {
+              "location": "ForgottenStepDefinition.userShouldPrintTheTitleOfMyPasswordResetPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3089780000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click the search button",
+            "match": {
+              "location": "ForgottenStepDefinition.user_should_click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44449200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should navigate to password reset page",
+            "match": {
+              "location": "ForgottenStepDefinition.user_should_navigate_to_password_reset_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Pink"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the forgotten password functionality",
+    "description": "",
+    "id": "validate-the-forgotten-password-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/Forgotten.feature",
+    "tags": []
+  }
+]
