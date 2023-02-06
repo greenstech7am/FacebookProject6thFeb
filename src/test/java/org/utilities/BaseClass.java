@@ -137,6 +137,12 @@ public class BaseClass {
 		
 		FileUtils.copyFile(src, dsc);
 	}
+	
+	
+	public static void quitBrowser() {
+		driver.quit();
+
+	}
 
 	
 	
