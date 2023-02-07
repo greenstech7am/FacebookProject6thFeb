@@ -145,6 +145,7 @@ public class BaseClass {
 		System.out.println("Vijay Pushed");
 		System.out.println("added one method by Kannan");
 		System.out.println("Good Morning - Vijay");
+		System.out.println("Good Evening - Kannan");
 
 	}
 
