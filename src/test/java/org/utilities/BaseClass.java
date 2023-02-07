@@ -142,6 +142,7 @@ public class BaseClass {
 	public static void quitBrowser() {
 		driver.quit();
 		System.out.println("Kannan Pushed");
+		System.out.println("Vijay Pushed");
 		System.out.println("added one method by Kannan");
 
 	}
